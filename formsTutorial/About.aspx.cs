@@ -13,5 +13,9 @@ namespace formsTutorial
         {
 
         }
+
+       //Creates an alert used for Debugging
+        //Response.Write("<script>alert('Hello');</script>");
+
     }
 }
