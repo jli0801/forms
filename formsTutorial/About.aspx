@@ -4,8 +4,12 @@
     <script src="Scripts/about.js" type="text/javascript"></script>
 
     <h2><%: Form %>.</h2>
-    <h3>Option One (Insert Picture): </h3>
-    <input type ="radio" name ="choiceOne" value ="one" class = "about"/> One <br />
+    <h4>Option One (Insert Picture): </h4>
+    <input type ="radio" name ="choice" value ="one" class = "about"/> One <br />
     <h4> Option Two (Insert Picture): </h4>
-    <input type ="radio" name ="choiceTwo" value ="two" class ="about"/> Two <br />
+    <input type ="radio" name ="choice" value ="two" class ="about"/> Two <br />
+
+    <button type ="button " onclick ="getOption() ">Submit </button >
+
+    <div id ="result"> </div>
 </asp:Content>
