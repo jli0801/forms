@@ -4,6 +4,12 @@
     <script src="Scripts/about.js" type="text/javascript">
     </script>
     <script>
+        function initialize() {
+          //  myHeader.innerHTML = "Options:";
+          // $(".head h2").html("Options:");
+
+        }
+
         function getOption() {
             document.getElementById("result").innerHTML = "";
 
@@ -28,7 +34,7 @@
         }
     </script>
 
-    <h2><%: Form %>.</h2>
+   <%-- <h2 id ="myHeader"><%: Form %>.</h2>--%>
     <h3>Option One (Insert Picture): </h3>
     <input type ="radio" name ="choice" value ="one" class = "about"/> One <br />
     <h4> Option Two (Insert Picture): </h4>
