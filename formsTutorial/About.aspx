@@ -1,15 +1,13 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="formsTutorial.About" %>
+﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="formsTutorial.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <script src="Scripts/about.js" type="text/javascript">
-    </script>
-    <script>
+    <script src="Scripts/about.js" type="text/javascript"> </script>
+<%--    <script>
         function initialize() {
           //  myHeader.innerHTML = "Options:";
           // $(".head h2").html("Options:");
 
         }
-
         function getOption() {
             document.getElementById("result").innerHTML = "";
 
@@ -32,9 +30,10 @@
             }
             /*b/c we're using asp.net; the site gets refreshed after the button is pressed (client side) so the value of result isn't static*/
         }
-    </script>
+    </script>--%>
 
-   <%-- <h2 id ="myHeader"><%: Form %>.</h2>--%>
+    <h2><%: Title %></h2>
+    
     <h3>Option One (Insert Picture): </h3>
     <input type ="radio" name ="choice" value ="one" class = "about"/> One <br />
     <h4> Option Two (Insert Picture): </h4>
